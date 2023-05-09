@@ -1,0 +1,256 @@
+html{
+    height: 1741px; width: 1313px;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 40px 40px;
+} 
+header{
+    display: flex;
+    flex-direction: row;
+    background-size: contain;
+    align-items: flex-end;
+    padding: 20px 0px;
+}
+
+/* Le contenu de mon header */
+.logo20minutes{
+    height:100%;
+    width: 100%;
+}
+.parisidf{
+    color: white;
+    background-color: #0b4892;
+    display: flex;
+    justify-content: center;
+    font-family: 'Hagrid';
+    font-size: 20px;
+}
+.cheff{
+    background-image: url(cheff.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-left: 1%;
+    display: flex;
+    background-size:cover;
+    margin-left: 50px;
+}
+.cheffvegan{
+    height: 150%;
+    width: 100%;
+}
+.cheffsource{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content:flex-start;
+    margin: 0;
+    font-style: italic;
+}
+h4 {
+    color: #0b4892;
+    margin-bottom: 0;
+    font-family: 'Hell';
+    font-size: 40px;
+}
+.minutestitre{
+background-color: #0b4892;
+color: white;
+display: flex;
+justify-content: center;
+margin: 0;
+font-size: 30px;
+font-style: italic;
+font-weight: bold;
+}
+article{
+    font-size: 45px;
+    font-family: 'Hell';
+}
+.articlediv{
+    width: 100%;
+    height: 100%;
+    margin-left: 20px;
+}
+
+/* Taille des div du header */
+.logo20{
+width: 25%;
+}
+.cheff{
+    width: 30%;
+}
+.articlediv{
+    width: 45%;
+}
+/* Fin du contenu header */
+
+/* Date + site + numero */
+.titre{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Paralucent';
+}
+
+/* Image crillon */
+#crillon{
+    width: 300px;
+    height: 300px;
+}
+/* Mon main */
+ .centrepage{
+    display: flex;
+    justify-content: flex-start;
+ }
+
+/* Ecriture coté page */
+.hrgauche{
+    width: 300px;
+    margin: 8px 0px;
+}
+.textcote {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content:flex-start;
+}
+
+/* Bloc colonne de gauche */
+.colonnegauche{
+display: flex;
+flex-direction: column;
+align-self: flex-start;
+}
+
+/* Image crillon + source */
+.crillondiv{
+    display: flex;
+    flex-direction: row;
+}
+.harsin{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    font-style: italic;
+}
+
+/* Image chameau + Source*/
+#chameauimg{
+    width: 300px;
+    height: 300px;
+}
+.chameau{
+    display: flex;
+    flex-direction: row;
+}
+.chameausource{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    font-style: italic;
+}
+
+/* Titre des articles */
+.articlecolonne{
+    font-family: 'Loretta';
+    font-size: 25px;
+}
+.titrecolonne{
+font-family: 'Roc';
+font-size: 30px;
+color: #0b4892;
+font-weight: 800;
+}
+
+/* Image du film et contenu */
+.filmdiv{
+    background-image: url(film.png);
+    height: 1039px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-left: 1%;
+    display: flex;
+    background-size:cover;
+}
+.sourcefilm{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+    font-style: italic;
+}
+.titrefilm{
+    font-size: 90px;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Hell2'
+}
+.textfilm{
+font-size: 40px;
+margin-top: 0;
+margin-bottom: 5px;
+font-family: 'Simoncini';
+font-weight: bold;
+}
+.centrepage .textinterieur{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Contenu de mon footer */
+.festivaldeschefsdiv{
+    display: flex;
+    flex-direction: row;
+    
+}
+.pub{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin: 0;
+}
+.festivaldeschefs{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* Police(font) */
+@font-face {
+    font-family: 'Hagrid';
+    src: url('font/Hagrid-Text-Extrabold-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Simoncini';
+    src: url('font/SimonciniGaramond-Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Loretta';
+    src: url(font/loretta-medium.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Paralucent';
+    src: url(font/Paralucent\ W00\ Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'NewsSans';
+    src: url(font/NewsSans-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'DSert';
+    src: url(font/DSert-SemiBold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Hell';
+    src: url(font/HelveticaNeueMedium.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Hell2';
+    src: url(font/HelveticaNeue-BlackExt.otf) format('truetype');
+}
